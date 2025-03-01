@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'web-app'
+        DOCKER_IMAGE = 'jenkins-implementation'
     }
     stages {
         stage('Checkout Code') {
